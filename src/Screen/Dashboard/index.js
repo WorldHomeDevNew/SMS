@@ -1,7 +1,11 @@
+import Navbar from '../Dashboard/Navbar';
+import Sidebar from '../Dashboard/Sidebar';
+
 function Dashboard()
 {
     return<div>
-        <h1>DashBoard</h1>
+        <Navbar/>
+        <Sidebar/>
     </div>
 }
 export default Dashboard
